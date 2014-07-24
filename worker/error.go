@@ -7,8 +7,8 @@ import (
 )
 
 var (
-	ErrNoneAgents = errors.New("None active agents")
-	ErrNoneFuncs  = errors.New("None functions")
+	ErrNoneAgents = errors.New("No active agents")
+	ErrNoneFuncs  = errors.New("No functions")
 	ErrTimeOut    = errors.New("Executing time out")
 	ErrUnknown    = errors.New("Unknown error")
 )
